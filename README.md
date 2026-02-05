@@ -8,10 +8,6 @@
 ¹ *Eurecom Research Center, Sophia Antipolis, France* ² *Huawei Nice Research Center, Mougins, France* ³ *DeepCamera MRG, RISE Ltd, Nicosia, Cyprus* ⁴ *Visual Computing Lab, ISTI-CNR, Pisa, Italy*
 
 ---
-<p align="center">
-  <img src="figures/teaser.png" alt="Teaser figure" width="100%">
-</p>
-
 
 ## Publication
 This paper has been accepted for publication at the **6th London Imaging Meeting (LIM 2025)** and appears in the **IOP Journal of Physics: Conference Series**.
