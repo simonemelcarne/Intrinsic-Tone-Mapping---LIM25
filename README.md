@@ -40,8 +40,8 @@ The pipeline consists of the following steps:
 
 
 ## Repository Structure
-* `paper/`: Contains the camera-ready version of the paper.
-* `supplementary_material/`: Additional qualitative comparisons and details on the psychophysical experiment.
+* `main.pdf`: Contains the camera-ready version of the paper.
+* `additional.pdf`: Additional qualitative comparisons and details on the psychophysical experiment.
 
 ## Citation
 
