@@ -18,6 +18,12 @@ This paper has been accepted for publication at the **6th London Imaging Meeting
 Tone mapping is an essential step in an acquisition or a rendering pipeline to map high dynamic range (HDR) content to a reference display range. The simplest tone mapping approach is to apply a function to the luminance channel of an HDR image and then to propagate the change to the red, green, and blue channels. However, this often causes color distortions since luminance and chrominance channels are interdependent. We propose a novel tone mapping approach that preliminarily decomposes the image into intrinsic components (Reflectance and Shading) and leverages them to perform the actual operation. This strategy effectively mitigates color distortions, eliminating the need for post-processing color correction required by many state-of-the-art methods, and it also assists tone mapping operators (TMOs), improving the overall image quality.
 
 ## The Framework
+
+<p align="center">
+  <img src="figures/intrinsic_pipeline_LIM.png" alt="Proposed framework" width="100%">
+</p>
+
+
 Our method formulates tone mapping in the **intrinsic domain**. Instead of processing the luminance channel directly, we decompose the image into:
 1.  **Reflectance ($R$):** Invariant to illumination changes (spectral properties/colors).
 2.  **Shading ($S$):** Accounts for illumination effects and high dynamic range.
