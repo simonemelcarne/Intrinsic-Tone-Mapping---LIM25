@@ -10,7 +10,7 @@
 ---
 
 ## Publication
-This paper has been accepted for publication at the **6th London Imaging Meeting (LIM 2025)** and appearS in the **IOP Journal of Physics: Conference Series**.
+This paper has been accepted for publication at the **6th London Imaging Meeting (LIM 2025)** and appears in the **IOP Journal of Physics: Conference Series**.
 
 ---
 
