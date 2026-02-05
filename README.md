@@ -1,8 +1,7 @@
 # A Color Preserving Tone Mapping Framework in the Intrinsic Domain
 
-[![Conference](https://img.shields.io/badge/Conference-LIM_2025-blue)](https://www.imaging.org/IST/IST/Conferences/LIM/LIM_Home.aspx)
-[![Journal](https://img.shields.io/badge/Journal-IOP_JPCS-orange)](https://iopscience.iop.org/journal/1742-6596)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Conference](https://img.shields.io/badge/Conference-LIM_2025-blue)](https://iopscience.iop.org/article/10.1088/1742-6596/3128/1/012008)
+
 
 **Authors:** S. Melcarne¹, P. Cyriac², J.L. Dugelay¹, A. Artusi³, F. Banterle⁴
 
@@ -10,15 +9,15 @@
 
 ---
 
-## 📢 Publication
+## Publication
 This paper has been accepted for publication at the **6th London Imaging Meeting (LIM 2025)** and appearS in the **IOP Journal of Physics: Conference Series**.
 
 ---
 
-## 📄 Abstract
+## Abstract
 Tone mapping is an essential step in an acquisition or a rendering pipeline to map high dynamic range (HDR) content to a reference display range. The simplest tone mapping approach is to apply a function to the luminance channel of an HDR image and then to propagate the change to the red, green, and blue channels. However, this often causes color distortions since luminance and chrominance channels are interdependent. We propose a novel tone mapping approach that preliminarily decomposes the image into intrinsic components (Reflectance and Shading) and leverages them to perform the actual operation. This strategy effectively mitigates color distortions, eliminating the need for post-processing color correction required by many state-of-the-art methods, and it also assists tone mapping operators (TMOs), improving the overall image quality.
 
-## 🚀 The Framework
+## The Framework
 Our method formulates tone mapping in the **intrinsic domain**. Instead of processing the luminance channel directly, we decompose the image into:
 1.  **Reflectance ($R$):** Invariant to illumination changes (spectral properties/colors).
 2.  **Shading ($S$):** Accounts for illumination effects and high dynamic range.
@@ -31,6 +30,6 @@ The pipeline consists of the following steps:
 
 $$I = \mathcal{B}(\mathcal{T}^{IID}(\mathcal{N}(\hat{H})))$$
 
-## 📂 Repository Structure
+## Repository Structure
 * `paper/`: Contains the camera-ready version of the paper.
 * `supplementary_material/`: Additional qualitative comparisons and details on the psychophysical experiment.
