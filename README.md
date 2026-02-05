@@ -33,3 +33,17 @@ $$I = \mathcal{B}(\mathcal{T}^{IID}(\mathcal{N}(\hat{H})))$$
 ## Repository Structure
 * `paper/`: Contains the camera-ready version of the paper.
 * `supplementary_material/`: Additional qualitative comparisons and details on the psychophysical experiment.
+
+## 📝 Citation
+
+If you find this work useful for your research, please cite our paper:
+
+```bibtex
+@inproceedings{melcarne2025color,
+  title={A Color Preserving Tone Mapping Framework in the Intrinsic Domain},
+  author={Melcarne, S. and Cyriac, P. and Dugelay, J.L. and Artusi, A. and Banterle, F.},
+  booktitle={London Imaging Meeting (LIM)},
+  series={Journal of Physics: Conference Series},
+  year={2025},
+  publisher={IOP Publishing}
+}
