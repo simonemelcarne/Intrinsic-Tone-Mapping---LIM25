@@ -21,6 +21,8 @@ This paper has been accepted for publication at the **6th London Imaging Meeting
 ## Abstract
 Tone mapping is an essential step in an acquisition or a rendering pipeline to map high dynamic range (HDR) content to a reference display range. The simplest tone mapping approach is to apply a function to the luminance channel of an HDR image and then to propagate the change to the red, green, and blue channels. However, this often causes color distortions since luminance and chrominance channels are interdependent. We propose a novel tone mapping approach that preliminarily decomposes the image into intrinsic components (Reflectance and Shading) and leverages them to perform the actual operation. This strategy effectively mitigates color distortions, eliminating the need for post-processing color correction required by many state-of-the-art methods, and it also assists tone mapping operators (TMOs), improving the overall image quality.
 
+---
+
 ## The Framework
 
 <p align="center">
@@ -38,10 +40,13 @@ The pipeline consists of the following steps:
 3.  **Tone Mapping:** The TMO is applied **only to the Shading component** ($S$), leaving the Reflectance ($R$) untouched to preserve original colors.
 4.  **Recombination & Refinement:** The components are recombined, and a brightness refinement step normalizes the output.
 
+---
 
 ## Repository Structure
 * `main.pdf`: Contains the camera-ready version of the paper.
 * `additional.pdf`: Additional qualitative comparisons and details on the psychophysical experiment.
+
+---
 
 ## Citation
 
