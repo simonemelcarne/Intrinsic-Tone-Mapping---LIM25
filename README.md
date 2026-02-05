@@ -9,7 +9,7 @@
 
 ---
 <p align="center">
-  <img src="figures/teaser" alt="Teaser figure" width="100%">
+  <img src="figures/teaser.png" alt="Teaser figure" width="100%">
 </p>
 
 
