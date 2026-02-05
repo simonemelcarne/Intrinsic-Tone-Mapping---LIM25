@@ -8,6 +8,10 @@
 ¹ *Eurecom Research Center, Sophia Antipolis, France* ² *Huawei Nice Research Center, Mougins, France* ³ *DeepCamera MRG, RISE Ltd, Nicosia, Cyprus* ⁴ *Visual Computing Lab, ISTI-CNR, Pisa, Italy*
 
 ---
+<p align="center">
+  <img src="figures/teaser" alt="Teaser figure" width="100%">
+</p>
+
 
 ## Publication
 This paper has been accepted for publication at the **6th London Imaging Meeting (LIM 2025)** and appears in the **IOP Journal of Physics: Conference Series**.
@@ -34,13 +38,12 @@ The pipeline consists of the following steps:
 3.  **Tone Mapping:** The TMO is applied **only to the Shading component** ($S$), leaving the Reflectance ($R$) untouched to preserve original colors.
 4.  **Recombination & Refinement:** The components are recombined, and a brightness refinement step normalizes the output.
 
-$$I = \mathcal{B}(\mathcal{T}^{IID}(\mathcal{N}(\hat{H})))$$
 
 ## Repository Structure
 * `paper/`: Contains the camera-ready version of the paper.
 * `supplementary_material/`: Additional qualitative comparisons and details on the psychophysical experiment.
 
-## 📝 Citation
+## Citation
 
 If you find this work useful for your research, please cite our paper:
 
