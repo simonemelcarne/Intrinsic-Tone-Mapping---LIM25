@@ -8,7 +8,7 @@
 ¹ *Eurecom Research Center, Sophia Antipolis, France* ² *Huawei Nice Research Center, Mougins, France* ³ *DeepCamera MRG, RISE Ltd, Nicosia, Cyprus* ⁴ *Visual Computing Lab, ISTI-CNR, Pisa, Italy*
 
 <p align="center">
-  <img src="figures/teaser_lasvegas.png" alt="Proposed framework" width="100%">
+  <img src="figures/teaser_lasvegas.jpg" alt="Proposed framework" width="100%">
 </p>
 
 ---
