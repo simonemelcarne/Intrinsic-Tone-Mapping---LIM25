@@ -53,11 +53,18 @@ The pipeline consists of the following steps:
 If you find this work useful for your research, please cite our paper:
 
 ```bibtex
-@inproceedings{melcarne2025color,
-  title={A Color Preserving Tone Mapping Framework in the Intrinsic Domain},
-  author={Melcarne, S. and Cyriac, P. and Dugelay, J.L. and Artusi, A. and Banterle, F.},
-  booktitle={London Imaging Meeting (LIM)},
-  series={Journal of Physics: Conference Series},
-  year={2025},
-  publisher={IOP Publishing}
+@article{Melcarne_2025,
+doi = {10.1088/1742-6596/3128/1/012008},
+url = {https://doi.org/10.1088/1742-6596/3128/1/012008},
+year = {2025},
+month = {oct},
+publisher = {IOP Publishing},
+volume = {3128},
+number = {1},
+pages = {012008},
+author = {Melcarne, S and Cyriac, P and Dugelay, J L and Artusi, A and Banterle, F},
+title = {A Color Preserving Tone Mapping Framework in the Intrinsic Domain},
+journal = {Journal of Physics: Conference Series},
+abstract = {Tone mapping is an essential step in an acquisition or a rendering pipeline to map high dynamic range (HDR) content to a reference display range. The simplest tone mapping approach is to apply a function to the luminance channel of an HDR image and then to propagate the change to the red, green, and blue channels. However, this often causes color distortions since luminance and chrominance channels are interdependent, and modifying one affects the other. We propose a novel tone mapping approach that preliminarily decomposes the image into intrinsic components and leverages them to perform the actual operation. This strategy effectively mitigates color distortions, eliminating the need for post-processing color correction required by many state-of-the-art methods, and it also assists tone mapping operators (TMOs), improving the overall image quality. Our method was validated through quantitative metrics and a psychophysical experiment, both demonstrating its effectiveness.}
 }
+
